@@ -1,14 +1,15 @@
 import styled from "styled-components";
-import { GlobalStyles} from "./index";
+import { GlobalStyles, MyRoutes, Sidebar } from "./index";
 import { Device } from "./Styles/breakpoints"
+//import { Sidebar } from "./Components/organismos/sidebar/Sidebar";
 
 function App() {
   return (
     <Container>
       <GlobalStyles />
-      <section className="contentSidebar">contentSidebar</section>
+      <section className="contentSidebar"><Sidebar /></section>
       <section className="contentMenuambur">contentMenuambur</section>
-      <section className="contentRouters">contentRouters</section>
+      <section className="contentRouters"><MyRoutes/></section>
     </Container>
   );
 }

@@ -4,3 +4,5 @@ export * from './Styles/GlobalStyles';
 export * from './Styles/breakpoints'; // Asegúrate de que esta ruta sea correcta
 export * from './Pages/PageHome';
 export * from './Components/templates/HomeTemplate'
+export * from './components/organismos/sidebar/Sidebar';
+export * from './Routers/routes';

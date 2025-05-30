@@ -1,13 +1,11 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import PageHome from '../Pages/PageHome';
-
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { PageHome } from "../index";
 export function MyRoutes() {
     return (
-        <Router>
+        <BrowserRouter>
             <Routes>
                 <Route path="/" element={<PageHome />} />
-                {/* Agrega más rutas aquí si es necesario */}
             </Routes>
-        </Router>
-    );
+        </BrowserRouter>
+    )
 }
